@@ -1,0 +1,27 @@
+html,
+body {
+	padding: 0;
+	margin: 0;
+	font-family: verdana, arial, sans-serif;
+}
+body {
+	color: #fff;
+	font-size: 1.1em;
+	display: flex;
+	flex-direction: column;
+    justify-content: space-between;
+                    min-height: 100vh;
+}
+
+main {
+    background: darkgreen;
+    flex: 1 1 auto;
+}
+header,
+footer {
+	flex: 0 0 5em;
+	background-color: #37474f;
+}
+
+.game {
+}
